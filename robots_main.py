@@ -37,7 +37,7 @@
 import sys
 import argparse
 
-from robots_cc import RobotsMatcher
+from pyrobotstxt.robots_cc import RobotsMatcher
 
 def get_script_arguments():
     parser = argparse.ArgumentParser(description="RobotsTxt")

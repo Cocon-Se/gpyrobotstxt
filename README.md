@@ -39,6 +39,27 @@ pip install pyrobotstxt
 
 ## Example Code
 
+```python
+from pyrobotstxt.robots_cc import RobotsMatcher
+
+if __name__ == "__main__":
+    # Contents of robots.txt file.
+    robotsTxt_content = b"""
+        # robots.txt with restricted area
+
+        User-agent: *
+        Disallow: /members/*
+
+        Sitemap: http://example.net/sitemap.xml
+    """
+    # Target URI.
+    uri = "http://example.net/members/index.html"
+
+    matcher = RobotsMatcher()
+    allowed = matcher.allowed_by_robots(robotsTxt_content, "FooBot/1.0", uri)
+
+```
+
 ## Testing
 
 To run the tests execute `python -m unittest discover -s test -p test_*.py`
