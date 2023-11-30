@@ -23,8 +23,8 @@
 
 import unittest
 
-from pyrobotstxt.robots_cc import RobotsMatcher
-from pyrobotstxt.robotstxtparser import RobotsTxtParser
+from gpyrobotstxt.robots_cc import RobotsMatcher
+from gpyrobotstxt.robotstxtparser import RobotsTxtParser
 
 
 class RobotsStatsReporter(RobotsMatcher):

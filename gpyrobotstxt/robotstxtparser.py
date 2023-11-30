@@ -25,7 +25,7 @@
 import re
 import io
 
-from pyrobotstxt.parsedrobotskey import ParsedRobotsKey
+from gpyrobotstxt.parsedrobotskey import ParsedRobotsKey
 
 
 def ishexdigit(c):

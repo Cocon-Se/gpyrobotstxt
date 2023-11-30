@@ -1,9 +1,9 @@
-# pyrobotstxt
+# gpyrobotstxt
 
 [![Apache 2.0](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
-[![Used By](https://img.shields.io/sourcegraph/rrc/github.com/Cocon-Se/pyrobotstxt.svg)](https://sourcegraph.com/github.com/Cocon-Se/pyrobotstxt)
+[![Used By](https://img.shields.io/sourcegraph/rrc/github.com/Cocon-Se/gpyrobotstxt.svg)](https://sourcegraph.com/github.com/Cocon-Se/gpyrobotstxt)
 
-`pyrobotstxt` is a native Python port of [Google's robots.txt parser and matcher C++
+`gpyrobotstxt` is a native Python port of [Google's robots.txt parser and matcher C++
 library](https://github.com/google/robotstxt).
 
 - Preserves all behaviour of original library
@@ -25,7 +25,7 @@ Quoting the README from Google's robots.txt parser and matcher repo:
 >
 > The library is slightly modified (i.e. some internal headers and equivalent symbols) production code used by Googlebot, Google's crawler, to determine which URLs it may access based on rules provided by webmasters in robots.txt files. The library is released open-source to help developers build tools that better reflect Google's robots.txt parsing and matching.
 
-Package `pyrobotstxt`` aims to be a faithful conversion, from C++ to Python, of Google's robots.txt parser and matcher.
+Package `gpyrobotstxt`` aims to be a faithful conversion, from C++ to Python, of Google's robots.txt parser and matcher.
 
 ## Pre-requisites
 
@@ -35,13 +35,13 @@ Older Python releases should NOT be OK. Python versions above 3.11 should work f
 ## Installation
 
 ```shell
-pip install pyrobotstxt
+pip install gpyrobotstxt
 ```
 
 ## Example Code
 
 ```python
-from pyrobotstxt.robots_cc import RobotsMatcher
+from gpyrobotstxt.robots_cc import RobotsMatcher
 
 if __name__ == "__main__":
     # Contents of robots.txt file.
@@ -74,7 +74,7 @@ of the standalone binary tool, should follow the encoding/escaping format specif
 
 ## License
 
-Like the original library, `pyrobotstxt` is licensed under the terms of the
+Like the original library, `gpyrobotstxt` is licensed under the terms of the
 Apache License, Version 2.0.
 
 See [LICENSE](LICENSE) for more information.

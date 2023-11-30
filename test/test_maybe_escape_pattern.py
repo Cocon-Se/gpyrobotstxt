@@ -23,7 +23,7 @@
 
 import unittest
 
-from pyrobotstxt.robotstxtparser import RobotsTxtParser
+from gpyrobotstxt.robotstxtparser import RobotsTxtParser
 
 
 class TestMaybeEscapePattern(unittest.TestCase):
