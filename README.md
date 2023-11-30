@@ -28,8 +28,8 @@ Package `pyrobotstxt`` aims to be a faithful conversion, from C++ to Python, of 
 
 ## Pre-requisites
 
-- [Python](https://www.python.org/) version 3.10
-Older Python releases should NOT be OK. Newer Python releases should be OK, but only Python 3.10 has been tested (so far).
+- [Python](https://www.python.org/) version 3.9
+Older Python releases should NOT be OK. Python versions above 3.11 should work fine, but only Python 3.9, 3.10 & 3.11 has been tested (so far).
 
 ## Installation
 
