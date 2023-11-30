@@ -23,7 +23,7 @@
 
 import unittest
 
-from robots_cc import RobotsMatcher
+from pyrobotstxt.robots_cc import RobotsMatcher
 
 
 class TestGoogleOnlySystem(unittest.TestCase):

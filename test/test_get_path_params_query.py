@@ -23,7 +23,7 @@
 
 import unittest
 
-from robots_cc import get_path_params_query
+from pyrobotstxt.robots_cc import get_path_params_query
 
 
 class TestGetPathParamsQuery(unittest.TestCase):

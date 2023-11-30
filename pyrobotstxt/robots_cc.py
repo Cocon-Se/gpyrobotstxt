@@ -25,9 +25,9 @@
 from urllib.parse import urlparse
 from typing import List
 
-from robotsmatchstrategy import RobotsMatchStrategy
-from robotstxtparser import RobotsTxtParser
-from match import MatchHierarchy
+from pyrobotstxt.robotsmatchstrategy import RobotsMatchStrategy
+from pyrobotstxt.robotstxtparser import RobotsTxtParser
+from pyrobotstxt.match import MatchHierarchy
 
 
 def find_first_of(s, characters, pos=0):
