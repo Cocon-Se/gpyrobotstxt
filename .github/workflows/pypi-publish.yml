@@ -9,6 +9,8 @@
 name: Upload to Pypi Python Package
 
 on:
+  workflow_dispatch:
+    types: [published]
   release:
     types: [published]
 
