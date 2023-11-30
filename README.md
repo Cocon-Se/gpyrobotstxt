@@ -7,13 +7,13 @@
 `gpyrobotstxt` is a native Python port of [Google's robots.txt parser and matcher C++
 library](https://github.com/google/robotstxt).
 
-- Preserves all behaviour of original library
-- All 100% of original test suite functionality
+- Preserves all behaviour of the original library
+- All 100% of the original test suite functionality
 - Minor language-specific cleanups
 
 As per Google's original library, we include a small main executable,
 for webmasters, that allows testing a single URL and user-agent against
-a robots.txt. Ours is called `robots_main`, and its inputs and outputs
+a robots.txt. Ours is called `robots_main.py`, and its inputs and outputs
 are compatible with the original tool.
 
 ## About
@@ -26,12 +26,12 @@ Quoting the README from Google's robots.txt parser and matcher repo:
 >
 > The library is slightly modified (i.e. some internal headers and equivalent symbols) production code used by Googlebot, Google's crawler, to determine which URLs it may access based on rules provided by webmasters in robots.txt files. The library is released open-source to help developers build tools that better reflect Google's robots.txt parsing and matching.
 
-Package `gpyrobotstxt`` aims to be a faithful conversion, from C++ to Python, of Google's robots.txt parser and matcher.
+The package `gpyrobotstxt` aims to be a faithful conversion, from C++ to Python, of Google's robots.txt parser and matcher.
 
 ## Pre-requisites
 
 - [Python](https://www.python.org/) version 3.9
-Older Python releases should NOT be OK. Python versions above 3.11 should work fine, but only Python 3.9, 3.10 & 3.11 has been tested (so far).
+Older Python releases are likely NOT OK. Python versions above 3.11 should work fine, but only Python 3.9, 3.10 & 3.11 have been tested so far.
 
 ## Installation
 
@@ -39,7 +39,7 @@ Older Python releases should NOT be OK. Python versions above 3.11 should work f
 pip install gpyrobotstxt
 ```
 
-## Example Code
+## Example Code (as a library)
 
 ```python
 from gpyrobotstxt.robots_cc import RobotsMatcher
@@ -65,7 +65,7 @@ if __name__ == "__main__":
 ## Testing
 
 To run the tests execute `python -m unittest discover -s test -p test_*.py`
-For a specific test `python -m unittest discover -s test -p [TEST_NAME].py`, for example `python -m unittest discover -s test -p test_google_only_system.py`
+For a specific test `python -m unittest discover -s test -p [TEST_NAME].py`, for example, `python -m unittest discover -s test -p test_google_only_system.py`
 
 ## Notes
 
