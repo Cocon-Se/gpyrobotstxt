@@ -38,6 +38,6 @@ jobs:
         python -m unittest discover -s test -p test_*.py
     # Upload coverage report to Codecov
     - name: Report to Codecov
-      uses: codecov/codecov-action@v2
+      uses: codecov/codecov-action@v3
       with:
         file: ./coverage.txt
