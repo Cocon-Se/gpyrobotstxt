@@ -2,6 +2,7 @@
 
 [![Apache 2.0](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
 [![Used By](https://img.shields.io/sourcegraph/rrc/github.com/Cocon-Se/gpyrobotstxt.svg)](https://sourcegraph.com/github.com/Cocon-Se/gpyrobotstxt)
+[![Test Status](https://github.com/Cocon-Se/gpyrobotstxt/actions/workflows/unittest.yml/badge.svg?branch=main)](https://github.com/Cocon-Se/gpyrobotstxt/actions/workflows/unittest.yml)
 
 `gpyrobotstxt` is a native Python port of [Google's robots.txt parser and matcher C++
 library](https://github.com/google/robotstxt).
