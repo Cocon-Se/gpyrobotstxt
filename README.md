@@ -1,6 +1,7 @@
 # pyrobotstxt
 
 [![Apache 2.0](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
+[![Used By](https://img.shields.io/sourcegraph/rrc/github.com/Cocon-Se/pyrobotstxt.svg)](https://sourcegraph.com/github.com/Cocon-Se/pyrobotstxt)
 
 `pyrobotstxt` is a native Python port of [Google's robots.txt parser and matcher C++
 library](https://github.com/google/robotstxt).
