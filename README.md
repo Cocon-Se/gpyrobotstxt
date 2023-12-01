@@ -1,6 +1,6 @@
 # gpyrobotstxt
 
-[![Apache 2.0](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
+[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://github.com/Cocon-Se/gpyrobotstxt/blob/main/LICENSE.txt)
 [![Used By](https://img.shields.io/sourcegraph/rrc/github.com/Cocon-Se/gpyrobotstxt.svg)](https://sourcegraph.com/github.com/Cocon-Se/gpyrobotstxt)
 [![Test Status](https://github.com/Cocon-Se/gpyrobotstxt/actions/workflows/unittest.yml/badge.svg?branch=main)](https://github.com/Cocon-Se/gpyrobotstxt/actions/workflows/unittest.yml)
 
@@ -67,6 +67,20 @@ if __name__ == "__main__":
 To run the tests execute `python -m unittest discover -s test -p test_*.py`
 For a specific test `python -m unittest discover -s test -p [TEST_NAME].py`, for example, `python -m unittest discover -s test -p test_google_only_system.py`
 
+## Use the tool
+
+```bash
+$ python robots_main.py /local/path/to/robots.txt TestBot https://example.com/url
+user-agent 'YourBot' with URI 'https://example.com/url': ALLOWED
+```
+
+Additionally, one can pass multiple user-agent names to the tool, using comma-separated values, e.g.
+
+```bash
+$ python robots_main.py /local/path/to/robots.txt Googlebot,Googlebot-image https://example.com/url
+user-agent 'Googlebot,Googlebot-image' with URI 'https://example.com/url': ALLOWED
+```
+
 ## Notes
 
 The library required that the URI passed to the
@@ -76,9 +90,9 @@ of the standalone binary tool, should follow the encoding/escaping format specif
 ## License
 
 Like the original library, `gpyrobotstxt` is licensed under the terms of the
-Apache License, Version 2.0.
+GNU General Public License v3.0 (GNU GPL V3).
 
-See [LICENSE](LICENSE) for more information.
+See [LICENSE](https://github.com/Cocon-Se/gpyrobotstxt/blob/main/LICENSE.txt) for more information.
 
 ## Links
 

@@ -1,6 +1,6 @@
 """
 gpyrobotstxt
-===========
+============
 
 A pure Python port of Google's robots.txt parser and matcher.
 
