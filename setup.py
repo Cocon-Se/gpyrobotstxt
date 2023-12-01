@@ -1,6 +1,8 @@
+import sys
+import os
 import setuptools
 
-import gpyrobotstxt
+#import gpyrobotstxt
 
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
@@ -15,7 +17,7 @@ setuptools.setup(
     description="A pure Python port of Google's robots.txt parser and matcher.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    package_dir={"": "gpyrobotstxt"},
+    package_dir={"":"gpyrobotstxt"},
     packages=setuptools.find_packages(where="gpyrobotstxt"),
     install_requires=[
     ],
