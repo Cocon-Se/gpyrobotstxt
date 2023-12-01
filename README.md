@@ -1,6 +1,7 @@
 # gpyrobotstxt
 
-[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://github.com/Cocon-Se/gpyrobotstxt/blob/main/LICENSE.txt)
+[![License](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://github.com/Cocon-Se/gpyrobotstxt/blob/main/LICENSE.txt)
+[![Pypi](https://img.shields.io/pypi/v/gpyrobotstxt.svg)](https://pypi.org/project/gpyrobotstxt/)
 [![Used By](https://img.shields.io/sourcegraph/rrc/github.com/Cocon-Se/gpyrobotstxt.svg)](https://sourcegraph.com/github.com/Cocon-Se/gpyrobotstxt)
 [![Test Status](https://github.com/Cocon-Se/gpyrobotstxt/actions/workflows/unittest.yml/badge.svg?branch=main)](https://github.com/Cocon-Se/gpyrobotstxt/actions/workflows/unittest.yml)
 
