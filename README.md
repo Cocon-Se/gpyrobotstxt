@@ -31,7 +31,7 @@ The package `gpyrobotstxt` aims to be a faithful conversion, from C++ to Python,
 
 ## Pre-requisites
 
-- [Python](https://www.python.org/) version 3.9
+- [Python](https://www.python.org/) version 3.9  
 Older Python releases are likely NOT OK. Python versions above 3.11 should work fine, but only Python 3.9, 3.10 & 3.11 have been tested so far.
 
 ## Installation
@@ -59,7 +59,7 @@ if __name__ == "__main__":
     uri = "http://example.net/members/index.html"
 
     matcher = RobotsMatcher()
-    allowed = matcher.allowed_by_robots(robotsTxt_content, "FooBot/1.0", uri)
+    allowed = matcher.allowed_by_robots(robotsTxt_content, ["FooBot/1.0"], uri)
 
 ```
 
