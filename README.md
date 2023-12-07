@@ -90,8 +90,7 @@ of the standalone binary tool, should follow the encoding/escaping format specif
 
 ## License
 
-Like the original library, `gpyrobotstxt` is licensed under the terms of the
-GNU General Public License v3.0 (GNU GPL V3).
+`gpyrobotstxt` is licensed under the terms of the GNU General Public License v3.0 (GNU GPL V3).
 
 See [LICENSE](https://github.com/Cocon-Se/gpyrobotstxt/blob/main/LICENSE.txt) for more information.
 
